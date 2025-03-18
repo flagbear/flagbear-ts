@@ -47,7 +47,7 @@
     "@typescript-eslint/parser": "8.3.0",
     "eslint": "8.57.0",
     "prettier": "3.5.3",
-    "simulado": "^2.8.3",
+    "simulado": "^3.5.2",
     "typescript": "5.8.2",
     "vite": "6.2.2",
     "vite-plugin-dts": "4.5.3",
