@@ -1,1 +1,1 @@
-declare module 'simulado';
+declare module 'simulado'
