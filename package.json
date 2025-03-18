@@ -1,5 +1,5 @@
 {
-  "name": "flagbear",
+  "name": "@flagbear/flagbear",
   "version": "3.0.0",
   "description": "Simple library to separate deployment of features from release time. It uses network accessible files without the need of a server to provide feature toggles.",
   "type": "module",
@@ -7,7 +7,7 @@
     "Alvaro <contact@alvarolorente.dev>",
     "Aleix Morgadas <aleix.morgadas@pm.me>"
   ],
-  "repository": "git@github.com:flagbear/flagbear-js.git",
+  "repository": "git@github.com:flagbear/flagbear-ts.git",
   "license": "APACHE-2.0",
   "homepage": "https://www.flagbear.com/",
   "keywords": [
