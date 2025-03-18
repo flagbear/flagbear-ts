@@ -1,10 +1,10 @@
 # <img src="https://github.com/user-attachments/assets/86505db2-d84c-4246-90b2-afbb2da4983a" width="48"> Flagbear
 
-![Build & Publish](https://github.com/flagbear/flagbear-js/workflows/Build%20&%20Publish/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/flagbear/flagbear-js/branch/master/graph/badge.svg)](https://codecov.io/gh/flagbear/flagbear-js)
-[![npm](https://img.shields.io/npm/dt/flagbear.svg)](https://github.com/flagbear/flagbear-js)
-[![GitHub license](https://img.shields.io/github/license/flagbear/flagbear-js.svg)](https://github.com/flagbear/flagbear-js/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/flagbear/flagbear-js/graphs/commit-activity)
+![Build & Publish](https://github.com/flagbear/flagbear-ts/workflows/Build%20&%20Publish/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/flagbear/flagbear-ts/branch/master/graph/badge.svg)](https://codecov.io/gh/flagbear/flagbear-ts)
+[![npm](https://img.shields.io/npm/dt/flagbear.svg)](https://github.com/flagbear/flagbear-ts)
+[![GitHub license](https://img.shields.io/github/license/flagbear/flagbear-ts.svg)](https://github.com/flagbear/flagbear-ts/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/flagbear/flagbear-ts/graphs/commit-activity)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/kanekotic/)
 
 ## Motivation
