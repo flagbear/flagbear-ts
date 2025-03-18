@@ -1,4 +1,4 @@
-# ![toggle_logo_text](https://github.com/user-attachments/assets/17e12440-f254-45d9-8e4e-090e52533f1a)
+# <img src="https://github.com/user-attachments/assets/86505db2-d84c-4246-90b2-afbb2da4983a" width="48"> Flagbear
 
 ![Build & Publish](https://github.com/flagbear/flagbear-js/workflows/Build%20&%20Publish/badge.svg?branch=master)
 [![codecov](https://codecov.io/gh/flagbear/flagbear-js/branch/master/graph/badge.svg)](https://codecov.io/gh/flagbear/flagbear-js)
