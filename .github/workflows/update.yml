@@ -10,10 +10,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          token: ${{ secrets.REPO_TOKEN }}
-      - uses: actions/setup-node@master
+          node-version: 18
+          cache: 'npm'
       - name: install upgrade
         run: yarn upgrade --latest
       - name: install dependencies

@@ -11,19 +11,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@master
-      - name: Cache ✨
-        uses: actions/cache@v2
-        id: cache
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          path: node_modules
-          key: ${{ runner.os }}-cache-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-cache-
+          node-version: 18
+          cache: 'npm'
       - run: npm ci
       - run: npm test
-      - uses: alvarolorentedev/merge-release@master
+      - uses: Github-Actions-Community/merge-release@v6.0.7
         if: github.event_name != 'pull_request'
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
