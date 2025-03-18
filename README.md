@@ -1,4 +1,4 @@
-# <img src="https://github.com/user-attachments/assets/86505db2-d84c-4246-90b2-afbb2da4983a" width="48"> Flagbear
+# <img src="https://github.com/user-attachments/assets/38619cf4-fda9-4e1c-a3e9-da8a501689ef" height="150"> 
 
 ![Build & Publish](https://github.com/flagbear/flagbear-ts/workflows/Build%20&%20Publish/badge.svg?branch=master)
 [![codecov](https://codecov.io/gh/flagbear/flagbear-ts/branch/master/graph/badge.svg)](https://codecov.io/gh/flagbear/flagbear-ts)
