@@ -5,8 +5,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './lib/index.ts',
-      name: 'Togglee',
-      fileName: 'togglee',
+      name: 'flagbear',
+      fileName: 'flagbear',
     },
   },
   plugins: [dts({ include: ['lib'], rollupTypes: true })],

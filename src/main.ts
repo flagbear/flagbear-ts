@@ -1,4 +1,4 @@
-import { Togglee } from '../lib'
+import { flagbear } from '../lib'
 
 const url = "https://gist.githubusercontent.com/alvarolorentedev/c469f99bef5a5c0634b4a94a4acd6546/raw/toggles"
 const refreshRateSeconds = 5
@@ -26,7 +26,7 @@ const defaultValues: any[] = [
     }
 ]
 
-const subject = new Togglee(url, refreshRateSeconds, defaultValues)
+const subject = new flagbear(url, refreshRateSeconds, defaultValues)
 
 
 setInterval(() => {

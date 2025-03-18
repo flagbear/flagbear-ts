@@ -1,15 +1,15 @@
 {
-  "name": "togglee",
-  "version": "2.0.0",
+  "name": "flagbear",
+  "version": "3.0.0",
   "description": "Simple library to separate deployment of features from release time. It uses network accessible files without the need of a server to provide feature toggles.",
   "type": "module",
   "contributors": [
     "Alvaro <contact@alvarolorente.dev>",
     "Aleix Morgadas <aleix.morgadas@pm.me>"
   ],
-  "repository": "git@github.com:togglee/togglee-js.git",
+  "repository": "git@github.com:flagbear/flagbear-js.git",
   "license": "APACHE-2.0",
-  "homepage": "https://www.togglee.com/",
+  "homepage": "https://www.flagbear.com/",
   "keywords": [
     "serverless",
     "flags",
@@ -18,13 +18,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/togglee.umd.cjs",
-  "module": "./dist/togglee.js",
+  "main": "./dist/flagbear.umd.cjs",
+  "module": "./dist/flagbear.js",
   "types": "./dist/index.d.ts",
   "exports": {
     "types": "./dist/index.d.ts",
-    "import": "./dist/togglee.js",
-    "require": "./dist/togglee.umd.cjs"
+    "import": "./dist/flagbear.js",
+    "require": "./dist/flagbear.umd.cjs"
   },
   "scripts": {
     "prepare": "npm run build",

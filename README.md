@@ -1,10 +1,10 @@
 # ![toggle_logo_text](https://github.com/user-attachments/assets/17e12440-f254-45d9-8e4e-090e52533f1a)
 
-![Build & Publish](https://github.com/togglee/togglee-js/workflows/Build%20&%20Publish/badge.svg?branch=master)
-[![codecov](https://codecov.io/gh/togglee/togglee-js/branch/master/graph/badge.svg)](https://codecov.io/gh/togglee/togglee-js)
-[![npm](https://img.shields.io/npm/dt/togglee.svg)](https://github.com/togglee/togglee-js)
-[![GitHub license](https://img.shields.io/github/license/togglee/togglee-js.svg)](https://github.com/togglee/togglee-js/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/togglee/togglee-js/graphs/commit-activity)
+![Build & Publish](https://github.com/flagbear/flagbear-js/workflows/Build%20&%20Publish/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/flagbear/flagbear-js/branch/master/graph/badge.svg)](https://codecov.io/gh/flagbear/flagbear-js)
+[![npm](https://img.shields.io/npm/dt/flagbear.svg)](https://github.com/flagbear/flagbear-js)
+[![GitHub license](https://img.shields.io/github/license/flagbear/flagbear-js.svg)](https://github.com/flagbear/flagbear-js/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/flagbear/flagbear-js/graphs/commit-activity)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/kanekotic/)
 
 ## Motivation
@@ -13,13 +13,13 @@ Simple library to separate deployment of features from release time. It uses net
 
 ## Installation
 
-add it to your project using `npm install togglee --save` or `yarn add togglee`
+add it to your project using `npm install flagbear --save` or `yarn add flagbear`
 
 ## Usage
 
 ```js
-import { Togglee } from '../lib'
-// or: const { Togglee } = require("togglee")
+import { flagbear } from '../lib'
+// or: const { flagbear } = require("flagbear")
 
 const url = "https://gist.githubusercontent.com/alvarolorentedev/c469f99bef5a5c0634b4a94a4acd6546/raw/toggles"
 const refreshRateSeconds = 5
@@ -47,7 +47,7 @@ const defaultValues = [
     }
 ]
 
-const subject = new Togglee(url, refreshRateSeconds, defaultValues)
+const subject = new flagbear(url, refreshRateSeconds, defaultValues)
 
 
 setInterval(() => {

@@ -3,7 +3,7 @@ import strategyMaps from './strategies'
 import mapArrayofToggles from './helpers/mapper'
 import { Toggle } from './models/Toggle'
 
-export class Togglee {
+export class flagbear {
   private toggles?: any
   private url: string
   private ready = false
@@ -47,7 +47,7 @@ export class Togglee {
       this.ready = true
     } catch (error) {
       if (this.debug) {
-        console.error('togglee error', error)
+        console.error('flagbear error', error)
       }
       this.ready = true
     }
