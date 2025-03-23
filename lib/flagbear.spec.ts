@@ -1,8 +1,7 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest'
 import { flagbear } from './flagbear'
 import simulado from 'simulado'
-import { Toggle } from './models/Toggle'
-import { ReleaseToggle } from './models/ReleaseToggle'
+import { ReleaseToggle, Toggle } from '@flagbear/flagbear-core'
 
 describe('Toggle', () => {
   const sleeper = (time: number) => new Promise((resolve) => setTimeout(resolve, time))
