@@ -54,6 +54,7 @@
     "vitest": "3.0.9"
   },
   "dependencies": {
+    "@flagbear/flagbear-core": "^3.0.0",
     "axios": "1.8.3"
   }
 }

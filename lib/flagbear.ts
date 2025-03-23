@@ -1,7 +1,5 @@
+import { mapArrayofToggles, strategyMaps, Toggle } from '@flagbear/flagbear-core'
 import axios from 'axios'
-import strategyMaps from './strategies'
-import mapArrayofToggles from './helpers/mapper'
-import { Toggle } from './models/Toggle'
 
 export class flagbear {
   private toggles?: any
