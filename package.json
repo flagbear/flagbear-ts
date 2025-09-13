@@ -55,6 +55,6 @@
   },
   "dependencies": {
     "@flagbear/flagbear-core": "^3.0.0",
-    "axios": "1.8.3"
+    "axios": "1.12.0"
   }
 }
